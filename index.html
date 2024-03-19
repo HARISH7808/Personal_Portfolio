@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f44c919551.js" crossorigin="anonymous"></script>
+        </head>
+    <body>
+      <div id="header">
+        <div class = "container">
+            <nav>
+                <h2><br><I>Portfolio</I></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+            </nav>
+            <div class = "header-txt">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Harish</span> <br>from Coimbatore</h1>
+            </div>
+        </div>
+      </div>
+
+      <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Picsart_23-10-01_22-54-46-412.jpg">
+                   </div>
+                    <div class="about-col-2">
+                        <h3 class="sub-title">About Me</h3>
+                        <p> Dedicated and highly motivated recent graduate with a B.E
+                            Electronics and Telecommunication Engineering seeking an
+                            entry-level position in Software Engineering. Eager to apply
+                            my strong educational background, passion for learning, and
+                            exceptional problem-solving skills to contribute to a dynamic
+                            team and grow professionally while making a positive impact
+                            on the organization.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web development</span><br><br>Designing web pages</li>
+                                    <li><span>Java programming</span><br><br>Employee management systems</li>
+                                    <li><span>Embedded c</span><br><br>7 segment display with keypad</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>Gate way solutions</span><br><br>Front-end-Development</li>
+                                    <li><span>Kodacy</span><br><br>Robotics</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>Karpagam College Of Engineering</span><br><br>CGPA:7.5</li>
+                                    <li><span>HSC</span><br><br>Percentage-83%</li>
+                                    <li><span>SSLC</span><br><br>Percentage-79%</li>
+                                </ul>
+                            </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Serivces</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Designing</h2><br>
+                <p>A passionate web designer dedicated to transforming visions into immersive online experiences. I invite you to explore a snapshot of my work. From sleek corporate platforms to vibrant personal blogs, each project encapsulates a unique blend of creativity and functionality. Embracing a mobile-first philosophy, I ensure seamless navigation across devices, prioritizing clean layouts and intuitive interfaces.</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Employee Management Systems</h2><br>
+                <p>The Employee Management System is a comprehensive
+                    software solution designed to simplify and enhance the
+                    management of employees within an organization. This
+                    system aims to streamline various HR processes, improve data
+                    accuracy, and provide valuable insights to support informed
+                    decision-making.</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>7 segment display with keypad</h2><br>
+                <p>The Keypad Interface with 7-Segment Display project is
+                    designed to create a simple yet versatile input and output
+                    system using a keypad and a 7-segment display. This project is
+                    an excellent educational exercise and can serve as the
+                    foundation for various applications such as digital lock
+                    systems, timer controls, or data entry systems.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="website-design-preview-220636.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A portfolio project is a purposeful compilation of work samples, showcasing an individual's skills, achievements, and creative endeavors.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="employee-management-features.png">
+                <div class="layer">
+                    <h3>Employee Management System</h3>
+                    <p>
+                       
+                      An Employee Management System is a software solution designed to streamline and automate various aspects of workforce administration. 
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="matrixkeypad.png">
+                <div class="layer">
+                    <h3>Keypad Interface with 7 Segment Display</h3>
+                    <p>
+                       
+                      A Keypad Interface with 7 Segment Display is a hardware configuration often used in electronic systems for user input and output.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    </div>
+           <a href="https://github.com/HARISH7808/" class="btn">See More</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 contact="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-envelope"></i> harishmano46@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> +91 9150153713</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/harrisssheeeh_____/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harish-m-b6a403250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/HARISH M (1).pdf"download class="btn btn2">Download CV</a>  
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Harish. Made with <i class="fa-solid fa-heart"></i> by Easy</p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu= document.getElementById("sidemenu");
+
+    function openmenu(){
+           sidemeu.style.right="0";
+    }
+    function closemenu(){
+           sidemeu.style.right="-200px ";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby5A_TDB8zqVHwwgP2tXdUl7mOO3z5mxj8FW8iD4SnqKmn7kROl-tWqdZ9rHJk6WBoN/exec'
+    const form = document.forms['submit-to-google-sheet']
+     const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+
+</html>
